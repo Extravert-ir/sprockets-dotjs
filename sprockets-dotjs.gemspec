@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "sprockets"
+  s.add_dependency "sprockets", "~> 3"
   s.add_dependency "execjs"
   s.add_dependency "tilt"
 end
